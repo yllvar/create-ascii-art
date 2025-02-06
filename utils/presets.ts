@@ -1,0 +1,73 @@
+import type { Preset } from "../types/ascii"
+
+export const presets: Preset[] = [
+  {
+    name: "Default",
+    settings: {
+      theme: "dark",
+      asciiWidth: 100,
+      brightness: 0,
+      contrast: 0,
+      blur: 0,
+      dithering: true,
+      ditherAlgorithm: "floyd",
+      invert: false,
+      ignoreWhite: true,
+      charset: "standard",
+      edgeDetection: "none",
+      edgeThreshold: 100,
+    },
+  },
+  {
+    name: "High Contrast",
+    settings: {
+      theme: "dark",
+      asciiWidth: 100,
+      brightness: 20,
+      contrast: 50,
+      blur: 0,
+      dithering: true,
+      ditherAlgorithm: "floyd",
+      invert: false,
+      ignoreWhite: true,
+      charset: "standard",
+      edgeDetection: "none",
+      edgeThreshold: 100,
+    },
+  },
+  {
+    name: "Detailed Art",
+    settings: {
+      theme: "dark",
+      asciiWidth: 150,
+      brightness: 0,
+      contrast: 20,
+      blur: 0,
+      dithering: true,
+      ditherAlgorithm: "atkinson",
+      invert: false,
+      ignoreWhite: false,
+      charset: "detailed",
+      edgeDetection: "none",
+      edgeThreshold: 100,
+    },
+  },
+  {
+    name: "Minimalist",
+    settings: {
+      theme: "light",
+      asciiWidth: 80,
+      brightness: -10,
+      contrast: 30,
+      blur: 1,
+      dithering: false,
+      ditherAlgorithm: "floyd",
+      invert: false,
+      ignoreWhite: true,
+      charset: "blocks",
+      edgeDetection: "sobel",
+      edgeThreshold: 50,
+    },
+  },
+]
+
