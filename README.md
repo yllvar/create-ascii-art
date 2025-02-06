@@ -127,13 +127,5 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 This project is licensed under the MIT License - see [LICENSE.md](LICENSE.md) for details.
 
 ---
- _____  _   _   ___   _   _  _  __      __   __  ___   _   _ 
-|_   _|| | | | / _ \ | \ | || |/ /      \ \ / / / _ \ | | | |
-  | |  | |_| |/ /_\ \|  \| || ' /        \ V / | | | || | | |
-  | |  |  _  ||  _  || |\  || . \         | |  | |_| || |_| |
-  |_|  | | | || | | ||_| \_||_|\_\        |_|   \___/  \___/ 
-       |_| |_|\_| |_/                                        
-       
-Made with ❤️ by [Your Name/Team Name]
 
 🐛 Found a bug? Have a feature request? [Open an issue](https://github.com/yllvar/create-ascii-art/issues)
